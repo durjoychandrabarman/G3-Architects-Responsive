@@ -115,6 +115,62 @@ main{
 #quick-list{
     font-weight: 600;
 }
+/* Features you will love & enjoy related style */
+#features-enjoy-title{
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    padding-left: 20px;
+}
+.feature-card .feature-card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: rgba(19, 19, 19, 1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.feature-card-description{
+    color: rgba(114, 114, 114, 1);
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.features-enjoy-title{
+    margin-top: 0px;
+}
+#feature-descript{
+    margin-bottom: 24px;
+}
+.feature-card{
+    padding: 30px ; 
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.features-enjoy{
+    gap: 140px;
+}
+#experience-badge{
+    padding: 45px 42px;
+    background-color: rgba(255, 144, 14, 1);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -120px;
+}
+#experience-year{
+    font-size: 4rem;
+    font-size: 700;
+    line-height: 70px;
+}
+.features-enjoy{
+    margin-bottom: 100px;
+}
+.feature-architect img {
+    width: 100%;
+}
 /* same facts style */
 .some-facts{
     margin-bottom: 180px;
@@ -163,11 +219,6 @@ main{
     max-width: 540px;
     margin: 50px auto;
     text-align: center;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px; */ 
 }
 .sponspors-description{
     color: rgba(114, 114, 114, 1);
@@ -195,7 +246,8 @@ main{
 /* responsive media query */
 @media screen and (max-width:576px) {
     .navber , 
-    .nav-menu , 
+    .nav-menu ,
+    .features-enjoy , 
     .teams {
         flex-direction: column;
     }
@@ -224,10 +276,24 @@ main{
         align-items: center;
         justify-items: center;
     }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .features-enjoy {
+        gap: 5px;
+    }
+    /* full website margin bottom */
+    .features-enjoy , .some-facts  ,.teams {
+        margin-bottom: 80px;
+    }  
+    .footer{
+        margin-bottom: 40px;
+    }
 }
 /* medium device media query */
 @media screen and (min-width:576px) and (max-width:992px){
-    .teams{
+    .teams , .features-enjoy{
         flex-direction: column;
     }
     .our-features{
@@ -247,6 +313,17 @@ main{
         gap: 20px;
         justify-items: center;
     }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .footer{
+        margin-bottom: 40px;
+    }
+    .features-enjoy {
+        gap: 16px;
+    }
 }
+   
 
   
