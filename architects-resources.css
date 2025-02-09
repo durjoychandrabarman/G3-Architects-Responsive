@@ -24,7 +24,6 @@ main{
 /* dark-2 */
 .text-gray{
     color: #424242;
-    /* color: rgba(66, 66, 66, 1); */
 }
 /* dark-3 */
 .text-light-gray{
@@ -89,7 +88,6 @@ main{
     font-weight: 700 ;
     font-size: 3.9rem;
 }
-
 .banner-img{
     width: 100%;
 }
